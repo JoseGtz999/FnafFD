@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Red Fox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ORIENTATION WARNING -->
+  <div id="rotateWarning" class="rotate-screen">
+    <h2>Por favor gira tu celular 📱</h2>
+  </div>  
+
+  <!-- MENU -->
+  <div id="menu" class="screen active">
+    <h1 class="title">Project Red Fox</h1>
+    <button id="startBtn" class="main-btn">Start Night</button>
+  </div>
+
+  <!-- OFFICE -->
+  <div id="office" class="screen">
+
+    <!-- VIEWPORT (recorta la imagen panorámica) -->
+    <div class="viewport">
+
+      <!-- PANORAMA (imagen más ancha que la pantalla) -->
+      <div class="panorama" id="panorama">
+
+        <!-- UI dentro de la oficina -->
+        <div class="office-ui">
+          <button class="door-btn left">Door</button>
+          <button class="camera-btn">Cameras</button>
+          <button class="door-btn right">Door</button>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
